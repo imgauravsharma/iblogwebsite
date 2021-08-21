@@ -1,0 +1,30 @@
+.contact {
+    /* display: flex; */
+    height: 600px;
+    /* background-color: yellow; */
+    margin-top: 16px;
+    padding: 5px;
+    position: relative;
+}
+
+.contact img {
+    content: "";
+    /* background-image: url('../img/img (6).jpg'); */
+    position: absolute;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    opacity: 0.3;
+    z-index: -1;
+}
+.contact h2{
+    padding-left: 11px;
+}
+
+.contact-form {
+    padding-left: 11px;
+    padding-top: 28px;
+}
+
+.footer {
+    margin-top: 5px;
+}
